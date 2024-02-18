@@ -17,10 +17,10 @@ jobs:
       - name: Archive Release
         uses: thedoctor0/zip-release@0.7.5
         with:
-          command: 'mkdir -p ${{ github.event.repository.name }}; mv * ${{ github.event.repository.name }}; mv ${{ github.event.repository.name }}/wp-update.json ./../wp-update.json'
+          command: 'mkdir -p ${{ github.event.repository.name }}; mv * ${{ github.event.repository.name }}; mv ${{ github.event.repository.name }}/wp-update.json ./wp-update.json'
           type: 'zip'
           filename: "${{ github.event.repository.name }}_${{ github.ref_name }}.zip"
-          exclusions: '*.git* /*node_modules/* .editorconfig wp-update.json'
+          exclusions: '*.git* /*node_modules/* .idea .editorconfig wp-update.json'
 
       - name: Upload Release
         uses: ncipollo/release-action@v1.14.0
