@@ -1,0 +1,20 @@
+{
+	"name" : "Rare Update Checker",
+	"slug" : "rare-update-checker",
+	"author" : "<a href='https://raremont.com'>Raremont</a>",
+	"author_profile" : "",
+	"version" : "2.0",
+	"requires" : "3.0",
+	"tested" : "5.8",
+	"requires_php" : "5.3",
+	"last_updated" : "2021-01-30 02:10:00",
+	"sections" : {
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at quam nec nunc ullamcorper iaculis.",
+		"installation" : "Click the install button and you're good to go!",
+		"change_log" : "<h4>0.1 - 18 February 2024</h4> <ul><li>Initial release</li></ul><h4>0.2 - 19 February 2024</h4> <ul><li>Fixed some bugs</li></ul><h4>0.3 - 20 February 2024</h4> <ul><li>Added new features</li></ul><h4>0.4 - 21 February 2024</h4> <ul><li>Fixed some bugs</li></ul><h4>0.5 - 22 February 2024</h4> <ul><li>Added new features</li></ul><h4>0.6 - 23 February 2024</h4> <ul><li>Fixed some bugs</li></ul><h4>0.7 - 24 February 2024</h4> <ul><li>Added new features</li></ul><h4>0.8 - 25 February 2024</h4> <ul><li>Fixed some bugs</li></ul><h4>0.9 - 26 February 2024</h4> <ul><li>Added new features</li></ul><h4>1.0 - 27 February 2024</h4> <ul><li>Fixed some bugs</li></ul>"
+	},
+	"banners" : {
+		"low" : "https://via.placeholder.com/728x90?text=Rare+Update+Checker",
+		"high" : "https://via.placeholder.com/728x90?text=Rare+Update+Checker"
+	}
+}
