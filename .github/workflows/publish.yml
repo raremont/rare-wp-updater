@@ -25,7 +25,7 @@ jobs:
       - name: Upload Release
         uses: ncipollo/release-action@v1.14.0
         with:
-          artifacts: "${{ github.event.repository.name }}, wp-update.json"
+          artifacts: "${{ github.event.repository.name }}.zip, wp-update.json"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: GitHub Tag Name example
