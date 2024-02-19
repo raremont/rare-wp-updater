@@ -2,7 +2,7 @@
 	/*
 	 * Plugin name: Rare Update Checker
 	 * Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	 * Version: 0.1
+	 * Version: 0.2
 	 * Author: Adam Mazurkiewicz-Madej
 	 * Author URI: https://raremont.com
 	 * License: 
@@ -206,7 +206,7 @@
 							'timeout' => 10,
 							'headers' => array(
 								'Accept'        => 'application/json',
-//								'Authorization' => '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'
+								'Authorization' => 'Bearer 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'
 							)
 						)
 					);
